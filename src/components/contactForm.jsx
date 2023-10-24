@@ -20,7 +20,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="relative  rounded-lg  lg:w-[40rem] md:w-[35rem] sm:w-[30rem] w-96 p-8 font-sans">
+      <div className="relative  rounded-lg  lg:w-[40rem] md:w-[35rem] sm:w-[30rem]  p-8 font-sans">
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
           <div className="sm:col-span-6">
             <label
