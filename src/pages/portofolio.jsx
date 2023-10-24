@@ -14,6 +14,7 @@ import react from '../assets/logo/react.png';
 import bootstrap from '../assets/logo/bootstrap.png';
 import tailwind from '../assets/logo/tailwind.png';
 import vite from '../assets/logo/vite.png';
+import Codelogo from '../assets/logo/logocode2.png';
 import ContactForm from '../components/contactForm';
 
 export default function Portofolio() {
@@ -105,8 +106,8 @@ export default function Portofolio() {
                 </div>
 
                 <div className="flex flex-1 items-center sm:justify-between justify-center">
-                  <div className="flex flex-shrink-0 sm:justify-center text-yellow-500 font-bold">
-                    dioprasetya
+                  <div className="flex sm:justify-center w-16 text-yellow-500 font-bold">
+                    <img className="object-cover " src={Codelogo} alt="" />
                   </div>
 
                   <div className="hidden sm:ml-6 sm:block">
@@ -226,7 +227,7 @@ export default function Portofolio() {
           <h1 className="text-yellow-500 text-2xl font-bold uppercase justify-self-center">
             Education
           </h1>
-          <div className="flex lg:flex-row flex-col gap-8 bg-red-500 ">
+          <div className="flex lg:flex-row flex-col gap-8 ">
             <div className="mb-4 flex justify-center">
               <img
                 src={purwa}
@@ -234,7 +235,7 @@ export default function Portofolio() {
                 className="shadow-2xl rounded-lg object-cover h-80 lg:w-[50rem] md:w-3/4 sm:w-full w-full"
               />
             </div>
-            <div className=" lg:w-10/12 md:w-full sm:w-full w-full  bg-blue-500 flex flex-col justify-center">
+            <div className=" lg:w-10/12 md:w-full sm:w-full w-full  flex flex-col justify-center">
               <h1 className="text-white font-semibold  ">
                 Training Full Stack Web Development at Purwadhika Digital School
               </h1>
